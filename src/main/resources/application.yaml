@@ -1,0 +1,21 @@
+server:
+  port: 80
+
+jwt:
+  secret: YXNkc2Fkc2Fkc2Fka2JzYWpoZHZoYWxzZmFzZnNmc2RmYWZk
+  lifetime: 20m
+
+spring:
+
+  session:
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: root
+    username: acheron
+    driver-class-name: org.postgresql.Driver
+
+#  liquibase:
+#    change-log: db/changelog
+
