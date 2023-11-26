@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8081
 
 jwt:
   secret: YXNkc2Fkc2Fkc2Fka2JzYWpoZHZoYWxzZmFzZnNmc2RmYWZk
@@ -8,6 +8,8 @@ jwt:
 spring:
 
   session:
+    jdbc:
+      initialize-schema: always
 
 
   datasource:
@@ -16,6 +18,4 @@ spring:
     username: acheron
     driver-class-name: org.postgresql.Driver
 
-#  liquibase:
-#    change-log: db/changelog
 
